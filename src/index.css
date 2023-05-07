@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #dfe6e9 !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.footer{
+  margin-top: 10vh;
+  background-color: #212529;
+  display: flex;
+  justify-content: space-evenly;
+  color: aliceblue;
+  align-items: center;
+}
+
+.footer p{
+  width: 50vw;
+  padding: 1rem;
+}
+
+.textGrey{
+  color: #84979C;
+  text-decoration: none;
+}
+
+.textGrey:hover{
+  color: rgb(209, 211, 212)
+}
+
+.profileHeading{
+  padding-top: 2rem;
+  height: 20vh;
+  background-image: linear-gradient(lime, limegreen);
+  color: white;
+}
+
+.shadow{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.homepage{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.hometext{
+  color: white;
+  background-color: lime;
+  border-radius: 50%;
+  padding: 1rem;
+  height: 350px;
+  width: 350px;
+}
+
+.hometext h1{
+  color: black;
+  text-shadow: 1px 1px 2px rgb(13, 140, 21), 0 0 1em rgb(71, 199, 190), 0 0 0.2em white;
+}
+.hoverGreen:hover{
+  color: limegreen;
+}
